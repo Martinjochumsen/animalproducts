@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Products Webshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3a7d44;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            font-size: 1.3rem;
+            margin: 10px 0;
+            color: #333;
+        }
+        .product p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .product button {
+            background-color: #3a7d44;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #2f6236;
+        }
+        footer {
+            background-color: #3a7d44;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        .nav-link {
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pet Products Webshop</h1>
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foodSection">Mad & Godbidder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accessoriesSection">Tilbehør</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Food & Snacks Section -->
+    <div id="foodSection" class="container d-flex flex-wrap justify-content-center">
+        <h2 class="w-100 text-center mt-5 mb-4">Mad & Godbidder</h2>
+
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.REImAYPFasZC7dl0CL4B2AHaN9&pid=Api" alt="Vitakraft Cat Liquid Snack">
+            <h3>Vitakraft Cat Liquid Snack</h3>
+            <p>Delicious liquid snack with chicken and taurine.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.nGYFCnkNbYSXOjbWPSVAVQHaHS&pid=Api" alt="Treateaters Chewing Sticks">
+            <h3>Treateaters Chewing Sticks</h3>
+            <p>Flavorful chewing sticks that help with dental cleaning.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.idaiNJXV1QhzikKJaqQjRQHaHa&pid=Api" alt="Companion Soft Snacks">
+            <h3>Companion Soft Snacks</h3>
+            <p>Soft and natural treats with chicken and duck.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.5EZFAbvyPsErnQRMgF_epwHaHa&pid=Api" alt="Sheba Fricassee">
+            <h3>Sheba Fricassee</h3>
+            <p>Wet food with turkey and vegetables in gravy.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Accessories Section -->
+    <div id="accessoriesSection" class="container d-flex flex-wrap justify-content-center">
+        <h2 class="w-100 text-center mt-5 mb-4">Tilbehør</h2>
+
+        <!-- Product 5 -->
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.h4T9PGveNZS5_nBWCo7kCgHaHa&pid=Api" alt="Bicycle Basket for Dogs">
+            <h3>Bicycle Basket for Dogs</h3>
+            <p>Practical bike basket for small dogs.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.CFQBkrdaBJDA4NvZ_TkZZwHaHa&pid=Api" alt="Blood Stop">
+            <h3>Blood Stop</h3>
+            <p>Effective solution to stop bleeding during nail clipping.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.UoktEW83gxmajh0fPEOa2wHaHa&pid=Api" alt="Modern Cat Litter Box">
+            <h3>Modern Cat Litter Box</h3>
+            <p>Stylish litter box with a lid to reduce odors.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.6nyqllBEAqi9JQHBkbFzPwHaHa&pid=Api" alt="Scratching Post Karlie Outdoor III">
+            <h3>Scratching Post Karlie Outdoor III</h3>
+            <p>Durable scratching post for outdoor use.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.lxGRB2dTGqBxl3QDlvMEQwHaHa&pid=Api" alt="Hurtta Outback Dreamer">
+            <h3>Hurtta Outback Dreamer</h3>
+            <p>Insulating sleeping bag for dogs.</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.nzRT2Q4Fyx8kVUxcpVv5AQHaHa&pid=Api" alt="Swing for Chickens">
+            <h3>Swing for Chickens</h3>
+            <p>Fun and enriching swing for chickens.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pet Products Webshop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
